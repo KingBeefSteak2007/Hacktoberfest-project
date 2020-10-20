@@ -27,6 +27,10 @@ while True:
       feelings_list.append("angry")
       encouragement_list.append("Please don't. Close your eyes and count to ten. You might feel better. Tell a friend or family member if you do not and explain the situation.")
       counter += 1
+    if each_word == "disgusted":
+      feelings_list.append("disgusted")
+      encouragement_list.append("Do not think about the trigger item/event. Think about other things and look at things you like to bleach your brain.")
+      counter += 1
 
   if counter == 0:
     
