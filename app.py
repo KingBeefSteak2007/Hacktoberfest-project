@@ -32,8 +32,20 @@ while True:
       encouragement_list.append("Do not think about the trigger item/event. Think about other things and look at things you like to bleach your brain.")
       counter += 1
     if each_word == "scared":
-      feelings_list.append("scarted")
+      feelings_list.append("scared")
       encouragement_list.append("Don't think about what you are scared of. Think about other things or do things you love.")
+      counter += 1
+    if each_word == "lonely":
+      feelings_list.append("lonely")
+      encouragement_list.append("You have me. It is ok. Everything is alright. If you need help, you can contact my creator at his profile and tell him your problems on the repository called PROBLEMS FROM HELPFUL BOT USERS.")
+      counter += 1
+    if each_word == "excited":
+      feelings_list.append("excited")
+      encouragement_list.append("Me too! I'm so happy for you! Have fun!")
+      counter += 1
+    if each_word == "nervous":
+      feelings_list.append("nervous")
+      encouragement_list.append("Relax. There will be a good outcome!")
       counter += 1
       
   if counter == 0:
