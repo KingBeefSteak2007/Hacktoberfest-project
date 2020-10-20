@@ -31,7 +31,11 @@ while True:
       feelings_list.append("disgusted")
       encouragement_list.append("Do not think about the trigger item/event. Think about other things and look at things you like to bleach your brain.")
       counter += 1
-
+    if each_word == "scared":
+      feelings_list.append("scarted")
+      encouragement_list.append("Don't think about what you are scared of. Think about other things or do things you love.")
+      counter += 1
+      
   if counter == 0:
     
       output = "Sorry I don't really understand. Please use different words?"
