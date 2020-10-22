@@ -61,8 +61,13 @@ while True:
       counter += 1  
     if each_word == "lazy":
       feelings_list.append("lazy")
+      counter += 1
       encouragement_list.append("Sleep.")
-      counter += 1  
+    if each_word == "irritated":
+      feelings_list.append("irritated")
+      encouragement_list.append("talk about it to the person you are having problems with, don't jump to conclusions")
+      counter += 1 
+      
   if counter == 0:
     
       output = "Sorry I don't really understand. Please use different words?"
